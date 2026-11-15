@@ -4,13 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thực hành Git và GitHub</title>
+    <title>Minh Ánh | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Chào mừng đến với bài thực hành Git & GitHub</h1>
-    <h2>Thông tin sinh viên</h2>
-    <p>Họ tên: Phạm Thị Minh Anh</p>
-    <p>MSSV: 1822040641</p>
-    <p>Môn học: Phát triển ứng dụng Web</p>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="logo">MINH Ánh<span>.</span></a>
+            <nav>
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#course">Môn học</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">XIN CHÀO! TÔI LÀ</p>
+                    <h1>Phạm Thị<br><span>Minh Ánh</span></h1>
+                    <p class="description">
+                        Sinh viên Công nghệ thông tin, yêu thích công nghệ,
+                        thiết kế website và khám phá những kiến thức mới.
+                    </p>
+                    <a href="#about" class="btn">Tìm hiểu thêm</a>
+                </div>
+
+                <div class="profile-card">
+                    <div class="avatar">MA</div>
+                    <h2>Minh Ánh</h2>
+                    <p>Information Technology Student</p>
+                    <div class="profile-info">
+                        <p><strong>MSSV:</strong> 1822040641</p>
+                        <p><strong>Lĩnh vực:</strong> Công nghệ thông tin</p>
+                        <p><strong>Mục tiêu:</strong> Phát triển kỹ năng Web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">Giới thiệu bản thân</h2>
+                <p class="section-desc">
+                    Tôi là sinh viên ngành Công nghệ thông tin.
+                    Tôi đang từng bước nâng cao kỹ năng lập trình,
+                    thiết kế giao diện và quản lý mã nguồn.
+                </p>
+            </div>
+        </section>
+
+        <section class="section course" id="course">
+            <div class="container">
+                <h2 class="section-title">Nội dung học tập</h2>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon">01</div>
+                        <h3>HTML & CSS</h3>
+                        <p>Xây dựng cấu trúc và thiết kế giao diện website.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">02</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Quản lý phiên bản và lưu trữ mã nguồn trực tuyến.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">03</div>
+                        <h3>Web Development</h3>
+                        <p>Tìm hiểu quy trình xây dựng và phát triển ứng dụng web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Thông tin sinh viên</h2>
+                <p>Họ tên: Phạm Thị Minh Ánh</p>
+                <p>Mã số sinh viên: 1822040641</p>
+                <p>Môn học: Phát triển ứng dụng Web</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Phạm Thị Minh Ánh | Thực hành Git & GitHub</p>
+    </footer>
+
 </body>
 </html>
