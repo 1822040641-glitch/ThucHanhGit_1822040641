@@ -6,7 +6,7 @@
 
 \## Thông tin sinh viên
 
-\- Họ và tên: Phạm Thị Minh Anh
+\- Họ và tên: Phạm Thị Minh Ánh
 
 \- MSSV: 1822040641
 
